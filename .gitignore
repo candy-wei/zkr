@@ -4,6 +4,17 @@
 # Log file
 *.log
 
+# some local files
+＃ ini file
+*.ini
+
+# idea file
+*.idea/
+.DS_Store
+*/.idea/
+*/.settings/
+*/.DS_Store
+
 # BlueJ files
 *.ctxt
 
