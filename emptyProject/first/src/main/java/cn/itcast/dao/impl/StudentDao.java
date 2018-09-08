@@ -10,6 +10,7 @@ import cn.itcast.pojo.Student;
  */
 public class StudentDao implements Dao<Student> {
 
+    ／／Second to Change
     public void delete(Student t) {
         System.out.println("删除一个学生");
     }
