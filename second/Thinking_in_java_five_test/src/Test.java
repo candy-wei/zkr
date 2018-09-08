@@ -12,6 +12,7 @@ public class Test {
 
         t1.a = 9;
         t2.a = 47;
+        System.out.println("Test Git...");
 
         System.out.println("t1 : "+t1.a+" t2 : "+t2.a);
 
