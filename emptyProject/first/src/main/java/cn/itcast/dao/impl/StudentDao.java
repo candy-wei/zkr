@@ -11,7 +11,7 @@ import cn.itcast.pojo.Student;
 public class StudentDao implements Dao<Student> {
 
     public void save(Student t) {
-        System.out.println("保存同学");
+        System.out.println("保存了这个优秀de同学");
     }
 
     public void delete(Student t) {
