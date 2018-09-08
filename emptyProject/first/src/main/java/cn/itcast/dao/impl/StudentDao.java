@@ -11,11 +11,11 @@ import cn.itcast.pojo.Student;
 public class StudentDao implements Dao<Student> {
 
     public void save(Student t) {
-        System.out.println("保存学生");
+        System.out.println("保存同学");
     }
 
     public void delete(Student t) {
-        System.out.println("删除学生");
+        System.out.println("删除一个学生");
     }
 
     public void update(Student t) {
