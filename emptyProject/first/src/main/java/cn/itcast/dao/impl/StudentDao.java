@@ -10,10 +10,6 @@ import cn.itcast.pojo.Student;
  */
 public class StudentDao implements Dao<Student> {
 
-    public void delete(Student t) {
-        System.out.println("删除一个学生");
-    }
-    ／／这是一个标记
     public void update(Student t) {
 
         System.out.println("更新学生");
