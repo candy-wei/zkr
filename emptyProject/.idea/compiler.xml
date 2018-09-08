@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aaa.first" />
+        <module name="bbb.second" />
+        <module name="first" />
+        <module name="second" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aaa.first" target="1.5" />
+      <module name="bbb.second" target="1.5" />
+      <module name="first" target="1.5" />
+      <module name="second" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
