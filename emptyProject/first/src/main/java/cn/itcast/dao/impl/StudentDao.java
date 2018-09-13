@@ -10,6 +10,16 @@ import cn.itcast.pojo.Student;
  */
 public class StudentDao implements Dao<Student> {
 
+    @Override
+    public void save(Student student) {
+        System.out.println("save student");
+    }
+
+    @Override
+    public void delete(Student student) {
+        System.out.println("delete student");
+    }
+
     public void update(Student t) {
         System.out.println("更新学生");
     }
